@@ -23,4 +23,5 @@ npm run build| build em modo desenvolvedor | Os arquivos de build fina na pasta 
 npm run build:prod | gerar em modo produção | sera gerado arquivos minificados na pasta build
 
 ### Resultado
-![Breve resultado](https://github.com/robsongade/webpack-intro/src/css/images/screencapture.jpg)
+![Breve resultado](https://raw.githubusercontent.com/robsongade/webpack-intro/master/src/css/images/screencapture.png)
+
