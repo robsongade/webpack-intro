@@ -1,3 +1,4 @@
+
 # WEBPACK+TYPESCRIPT
 
 Este é apenas um exemplo simples de uma aplicação com webpack e typescript!!!
@@ -6,7 +7,7 @@ Este é apenas um exemplo simples de uma aplicação com webpack e typescript!!!
 
 >**npm,node,webpack,webpack-cli**
 
-|modulo                          |versão
+|modulo |versão
 |-|-
 |npm |6.14.4
 |node |12.14.0
@@ -14,14 +15,38 @@ Este é apenas um exemplo simples de uma aplicação com webpack e typescript!!!
 |webpack-cli |3.3.12
 |webpack |4.44.1
 
+## Instalação
 
-### comandos
-|Commandos|descrição| obs |
+Clone o projeto
+
+>git clone https://github.com/robsongade/webpack-intro.git
+
+Entre na pasta
+
+>cd webpack-intro
+  
+Execute npm update para as dependências do projeto serem baixadas
+
+>npm update
+
+### Comandos
+
+|Commandos|Descrição|Obs.:|
 |-|-|-
-|npm start | acessar http://localhost:8080 | 8080 é a porta padrão, observar no terminal
+|npm start | acessar http://localhost:8080 | 8080 é a porta padrão, observar no terminal, você poderá também mudar a pasta passando como parâmetro, veja como na documentação do webpack(link nas referências)
 npm run build| build em modo desenvolvedor | Os arquivos de build fina na pasta build
-npm run build:prod | gerar em modo produção | sera gerado arquivos minificados na pasta build
+npm run build:prod | gerar em modo produção | seram gerados arquivos minificados na pasta build
+
+Você poderá usar commandos e parâmetros de acordo com que precisar, recomendo que use as documentações oficiais(veja links nas referências)
 
 ### Resultado
+
 ![Breve resultado](https://raw.githubusercontent.com/robsongade/webpack-intro/master/src/css/images/screencapture.png)
 
+## Referências
+
+[Documentação node](https://nodejs.org/docs/latest-v12.x/api/)
+
+[Documentação npm](https://docs.npmjs.com/)
+
+[Documentacao Webpack](https://webpack.js.org/concepts/)
